@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body class="products-page">
+	<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+	<link rel="manifest" href="files/site.webmanifest">
+	<link rel="mask-icon" href="files/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#2d89ef">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="stylesheet" href="css/style.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+	<title>Категории</title>
+</head>
+
+	<header class="header header-bright">
+		<div class="header__container _container">
+
+	<a class="header__logo logo" href="./index.html"><img src="img/logo.svg" alt="logo"> </a>
+
+	<div class="header__links">
+		<div class="header__social social">
+			<p>Мы в соц. сетях:</p>
+			<a href="https://www.vk.com"><img src="img/vk.svg" alt="vk"></a>
+			<a href="https://www.facebook.com"><img src="img/facebook.svg" alt="facebook"></a>
+			<a href="https://www.telegram.ru"><img src="img/telegramm.svg" alt="telegram"></a>
+			<a href="https://www.instagram.com"><img src="img/instagramm.svg" alt="instagram"></a>
+		</div>
+
+		<div class="header__contacts contacts-header">
+			<a class="contacts-header__tel" href="tel:8(928)151-55-63">8(928)151-55-63 </a>
+			<a class="contacts-header__tel" href="tel:8(928)151-55-63">8(961)415-72-92 </a>
+			<a class="contacts-header__tel" href="tel:8(928)151-55-63">8(938)171-10-75</a>
+			<a class="contacts-header__tel" href="tel:8(928)151-55-63">8(928)141-60-29 </a>
+		</div>
+	</div>
+	<!-- NavBtn -->
+	<button class="nav-btn">
+		<span class="nav-btn-icon"></span>
+	</button>
+	<!-- MobNav -->
+	<div class="mobile-nav">
+		<div class="mobile-nav__item">
+			<ul>
+				<li><a href="./categories.html">Категории</a></li>
+				<li><a href="./products.html">Проект дома</a></li>
+				<li><a href="./sales.html">Акции</a></li>
+				<li><a href="./about-us.html">О нас</a></li>
+				<li><a href="./gallery.html">Галерея</a></li>
+				<li><a href="./production.html">Производство</a></li>
+				<li><a href="./price.html">Прайс</a></li>
+				<li><a href="./contacts.html">Контакты</a></li>
+			</ul>
+		</div>
+
+		<div class="mobile-nav__item">
+
+			<div class="header__links">
+
+				<div class="header__social social">
+					<p>Мы в соц. сетях:</p>
+					<a href="https://www.vk.com"><img src="img/vk.svg" alt="vk"></a>
+					<a href="https://www.facebook.com"><img src="img/facebook.svg" alt="facebook"></a>
+					<a href="https://www.telegram.ru"><img src="img/telegramm.svg" alt="telegram"></a>
+					<a href="https://www.instagram.com"><img src="img/instagramm.svg" alt="instagram"></a>
+				</div>
+
+				<div class="header__contacts contacts-header">
+					<a class="contacts-header__tel" href="tel:8(928)151-55-63">+380 (928)151-55-63 </a>
+					<a class="contacts-header__tel" href="tel:8(928)151-55-63">+380 (961)415-72-92 </a>
+					<a class="contacts-header__tel" href="tel:8(928)151-55-63">+380 (938)171-10-75</a>
+					<a class="contacts-header__tel" href="tel:8(928)151-55-63">+380 (928)141-60-29 </a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- //MobNav -->
+</div>
+	</header>
+
+	<section class="intro" style="background-image: url('img/page categories/intro-categories-bg.jpg');">
+		<div class="intro__container _container">
+			<h1 class="intro__title "> <b>Выберите</b> проект</h1>
+			<h2 class="intro__subtitle">
+				Нами разработано более <br> <span>300 проектов</span> на ваш выбор
+			</h2>
+			<button class="intro__btn btn-more">УЗНАТЬ ПОДРОБНЕЕ</button>
+		</div>
+
+	</section>
+
+	<section class="home-projects">
+		<div class="home-projects__container _container">
+			<h3 class="home-projects__title title">Проекты домов</h3>
+
+			<div class="home-projects__cards cards__container controls">
+
+				<button type="button" data-filter=".less-150" class=" cards__card card-project control">
+
+					<div class="card-project__img">
+						<img src="img/page categories/project-img1.png" alt="до 150м2 картинка">
+					</div>
+
+					<p class="card-project__title">Дома до 150м2</p>
+				</button>
+
+				<button type="button" data-filter=".small-till-200" class="cards__card card-project">
+
+					<div class="card-project__img">
+						<img src="img/page categories/project-img2.png" alt="до 2000м2 картинка">
+					</div>
+
+					<p class="card-project__title">Дома от 150м2 до 200м2 </p>
+				</button>
+
+				<button type="button" data-filter=".till-200" class="cards__card card-project ">
+
+					<div class="card-project__img">
+						<img src="img/page categories/project-img3.png" alt="от 200м2 картинка">
+					</div>
+
+					<p class="card-project__title">Дома от 200м2</p>
+				</button>
+
+				<button type="button" data-filter=".one-floor" class="cards__card card-project ">
+
+					<div class="card-project__img">
+						<img src="img/page categories/project-img4.png" alt="одноэтажные - картинка">
+					</div>
+
+					<p class="card-project__title">Одноэтажные дома</p>
+				</button>
+
+				<button type="button" data-filter=".two-floor" class="cards__card card-project ">
+
+					<div class="card-project__img">
+						<img src="img/page categories/project-img5.png" alt=" картинка">
+					</div>
+
+					<p class="card-project__title">Двухэтажные дома</p>
+				</button>
+
+				<button type="button" data-filter=".flat-roof" class="cards__card card-project">
+
+					<div class="card-project__img">
+						<img src="img/page categories/project-img6.png" alt=" с прямой картинка">
+					</div>
+
+					<p class="card-project__title">С прямой крышей</p>
+				</button>
+
+				<button type="button" data-filter=".Thouse-shop" class="cards__card card-project">
+
+					<div class="card-project__img">
+						<img src="img/page categories/project-img7.png" alt="до 150м2 картинка">
+					</div>
+
+					<p class="card-project__title"> Гостиницы/магазины/таунхаусы</p>
+
+
+				</button>
+			</div>
+
+		</div>
+
+	</section>
+
+	<section class="products">
+		<div class="choose-project choose-project__container  _container">
+			<h3 class="choose-project__title title">Выберите себе проект</h3>
+
+			<div class="choose-project-card__container mix-container">
+
+
+				<a href="./product-page.html" class="choose-project__card product-card mix small-till-200 till-200 one-floor">
+					<div class="product-card__img">
+						<img src="img/project-lux.jpg" alt="Люкс">
+					</div>
+
+					<div class="product-card__info">
+
+						<div class="product-card__row">
+							<h5 class="product-card__title">Люкс</h5>
+							<p class="product-card__size">200 <span>м2</span> </p>
+						</div>
+
+						<div class="product-card__row">
+							<h5 class="product-card__rooms">4 комнаты</h5>
+							<p class="product-card__toilets">3 санузла</p>
+						</div>
+
+						<p class="product-card__amount">стоимость:</p>
+						<p class="product-card__price">8 000 000 грн.</p>
+					</div>
+				</a>
+
+
+				<a href="./product-page.html" class="choose-project__card product-card mix two-floor">
+					<div class="product-card__img">
+						<img src="img/project-palace.jpg" alt="Люкс">
+					</div>
+
+					<div class="product-card__info">
+
+						<div class="product-card__row">
+							<h5 class="product-card__title">Палац</h5>
+							<p class="product-card__size">250 <span>м2</span> </p>
+						</div>
+
+						<div class="product-card__row">
+							<h5 class="product-card__rooms">5 комнаты</h5>
+							<p class="product-card__toilets">3 санузла</p>
+						</div>
+
+						<p class="product-card__amount">стоимость:</p>
+						<p class="product-card__price">10 000 000 грн.</p>
+					</div>
+				</a>
+				<a href="./product-page.html" class="choose-project__card product-card mix less-150 Thouse-shop">
+					<div class="product-card__img">
+						<img src="img/project-optima.jpg" alt="оптима">
+					</div>
+
+					<div class="product-card__info">
+
+						<div class="product-card__row">
+							<h5 class="product-card__title">Оптима-макс</h5>
+							<p class="product-card__size">150 <span>м2</span> </p>
+						</div>
+
+						<div class="product-card__row">
+							<h5 class="product-card__rooms">3 комнаты</h5>
+							<p class="product-card__toilets">2 санузла</p>
+						</div>
+
+						<p class="product-card__amount">стоимость:</p>
+						<p class="product-card__price">5 000 000 грн.</p>
+					</div>
+				</a>
+
+
+				<a href="./product-page.html" class="choose-project__card product-card mix two-floor">
+					<div class="product-card__img">
+						<img src="img/project-palace.jpg" alt="Люкс">
+					</div>
+
+					<div class="product-card__info">
+
+						<div class="product-card__row">
+							<h5 class="product-card__title">Палац</h5>
+							<p class="product-card__size">250 <span>м2</span> </p>
+						</div>
+
+						<div class="product-card__row">
+							<h5 class="product-card__rooms">5 комнаты</h5>
+							<p class="product-card__toilets">3 санузла</p>
+						</div>
+
+						<p class="product-card__amount">стоимость:</p>
+						<p class="product-card__price">10 000 000 грн.</p>
+					</div>
+				</a>
+				<a href="./product-page.html" class="choose-project__card product-card mix less-150 Thouse-shop" id="product-card-3">
+					<div class="product-card__img">
+						<img src="img/project-optima.jpg" alt="оптима">
+					</div>
+
+					<div class="product-card__info">
+
+						<div class="product-card__row">
+							<h5 class="product-card__title">Оптима-макс</h5>
+							<p class="product-card__size">150 <span>м2</span> </p>
+						</div>
+
+						<div class="product-card__row">
+							<h5 class="product-card__rooms">3 комнаты</h5>
+							<p class="product-card__toilets">2 санузла</p>
+						</div>
+
+						<p class="product-card__amount">стоимость:</p>
+						<p class="product-card__price">5 000 000 грн.</p>
+					</div>
+				</a>
+				<a href="./product-page.html" class="choose-project__card product-card mix small-till-200 till-200 one-floor"
+					id="product-card-1">
+					<div class="product-card__img">
+						<img src="img/project-lux.jpg" alt="Люкс">
+					</div>
+
+					<div class="product-card__info">
+
+						<div class="product-card__row">
+							<h5 class="product-card__title">Люкс</h5>
+							<p class="product-card__size">200 <span>м2</span> </p>
+						</div>
+
+						<div class="product-card__row">
+							<h5 class="product-card__rooms">4 комнаты</h5>
+							<p class="product-card__toilets">3 санузла</p>
+						</div>
+
+						<p class="product-card__amount">стоимость:</p>
+						<p class="product-card__price">8 000 000 грн.</p>
+					</div>
+				</a>
+
+
+				<a href="./product-page.html" class="choose-project__card product-card mix less-150 Thouse-shop"
+					id="product-card-3">
+					<div class="product-card__img">
+						<img src="img/project-optima.jpg" alt="оптима">
+					</div>
+
+					<div class="product-card__info">
+
+						<div class="product-card__row">
+							<h5 class="product-card__title">Оптима-макс</h5>
+							<p class="product-card__size">150 <span>м2</span> </p>
+						</div>
+
+						<div class="product-card__row">
+							<h5 class="product-card__rooms">3 комнаты</h5>
+							<p class="product-card__toilets">2 санузла</p>
+						</div>
+
+						<p class="product-card__amount">стоимость:</p>
+						<p class="product-card__price">5 000 000 грн.</p>
+					</div>
+				</a>
+				<a href="./product-page.html" class="choose-project__card product-card mix two-floor" id="product-card-2">
+					<div class="product-card__img">
+						<img src="img/project-palace.jpg" alt="Люкс">
+					</div>
+
+					<div class="product-card__info">
+
+						<div class="product-card__row">
+							<h5 class="product-card__title">Палац</h5>
+							<p class="product-card__size">250 <span>м2</span> </p>
+						</div>
+
+						<div class="product-card__row">
+							<h5 class="product-card__rooms">5 комнаты</h5>
+							<p class="product-card__toilets">3 санузла</p>
+						</div>
+
+						<p class="product-card__amount">стоимость:</p>
+						<p class="product-card__price">10 000 000 грн.</p>
+					</div>
+				</a>
+				<a href="./product-page.html" class="mix small-till-200 till-200 one-floor choose-project__card product-card"
+					id="product-card-1">
+					<div class="product-card__img">
+						<img src="img/project-lux.jpg" alt="Люкс">
+					</div>
+
+					<div class="product-card__info">
+
+						<div class="product-card__row">
+							<h5 class="product-card__title">Люкс</h5>
+							<p class="product-card__size">200 <span>м2</span> </p>
+						</div>
+
+						<div class="product-card__row">
+							<h5 class="product-card__rooms">4 комнаты</h5>
+							<p class="product-card__toilets">3 санузла</p>
+						</div>
+
+						<p class="product-card__amount">стоимость:</p>
+						<p class="product-card__price">8 000 000 грн.</p>
+					</div>
+				</a>
+
+
+
+			</div>
+
+			<nav aria-label="page-pagination" class="products__pagination">
+				<ul class="pagination">
+					<li class="page-item active">
+						<a class="page-link" href="#">1 <span class="sr-only"></span></a>
+					</li>
+					<li class="page-item"><a class="page-link" href="#">2</a></li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item">...</li>
+					<li class="page-item"><a class="page-link" href="#">5</a></li>
+
+
+				</ul>
+			</nav>
+
+		</div>
+	</section>
+
+			<section class="callback">
+			<div class="callback__container _container">
+				<h3 class="callback__title title">Остались вопросы</h3>
+
+				<form class="form-callback">
+					<div class="form-callback__container">
+						<h4 class="form-callback__title">
+							<span class="form-callback__title-span">Запишитесь на консультацию </span>
+							в ходе которой мы&nbsp;обсудим все технические и финансовые вопросы
+						</h4>
+						<div class="form-callback__row">
+							<p>
+								Определимся с проектом
+								исходя из бюджета
+							</p>
+							<p>
+								Согласуем этапы оплаты
+								и сроки сдачи вашего дома
+							</p>
+						</div>
+
+						<input type="text" name="Введите ваше имя" placeholder="Введите ваше имя">
+						<input type="tel" name="Введите ваш номер" placeholder="Введите ваш номер"> <br>
+						<div class="form-callback__row  form-callback__row-btn">
+
+							<button>ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ</button>
+
+							<label for="checkbox" class="for-checkbox">
+								<input type="checkbox" id="checkbox">
+								<span> Согласен(на) с обработкой персональных данных </span>
+							</label>
+
+
+
+						</div>
+						<img class="callback-img-r ibg" src="img/questions-img.jpg" alt="img">
+					</div>
+				</form>
+
+			</div>
+		</section>
+	<footer class="footer">
+	<div class="footer__container _container">
+		<div class="footer__contacts contacts-footer">
+			<div class="contacts-footer__block">
+				<h3 class="contacts-footer__title title">Контакты</h3>
+
+				<div class="contacts-footer__item">
+					<h6 class="contacts-footer__item-title">Адресс:</h6>
+					<a href="https://goo.gl/maps/HQtFsd2FoPMNVU1n9" class="contacts-footer__item-text">
+						г. Ростов-на-Дону, Крепостной
+						переулок 123, офис 403
+					</a>
+				</div>
+
+				<div class="contacts-footer__item">
+					<h6 class="contacts-footer__item-title">Телефоны:</h6>
+
+					<div class="contacts-footer__item-phones">
+						<a class="contacts-footer__tel" href="tel: 8(928)151-55-63">
+							<img src="img/footer-tel-ico.svg" alt=""> 8(928)151-55-63</a>
+						<a class="contacts-footer__tel" href="tel: 8(961)415-72-92">
+							<img src="img/footer-tel-ico.svg" alt=""> 8(961)415-72-92</a>
+						<a class="contacts-footer__tel" href="tel: 8(938)171-10-75">
+							<img src="img/footer-tel-ico.svg" alt="">8(938)171-10-75</a>
+						<a class="contacts-footer__tel" href="tel: 8(928)141-60-29">
+							<img src="img/footer-tel-ico.svg" alt="">8(928)141-60-29</a>
+					</div>
+
+					<div class="contacts-footer__item-email">
+						<h6 class="contacts-footer__item-title">Почта:</h6>
+						<a href="mailto:sip-rost@mail.ru"
+							class="contacts-footer__item-text contacts-footer__email">sip-rost@mail.ru </a>
+					</div>
+
+
+					<div class="contacts-footer__item-links ">
+						<h6 class="contacts-footer__item-title">Мы в соц. сетях</h6>
+
+						<a class="contacts-footer__link" href="https://www.vk.com">
+							<img src="img/vk.svg" alt="vk.com">
+						</a>
+
+						<a class="contacts-footer__link" href="https://www.facebook.com">
+							<img src="img/facebook.svg" alt="facebook">
+						</a>
+
+						<a class="contacts-footer__link" href="https://www.telegram.ru">
+							<img src="img/telegramm.svg" alt="telegram">
+						</a>
+
+						<a class="contacts-footer__link" href="https://www.instagram.com">
+							<img src="img/instagramm.svg" alt="instagram">
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer__map">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d20309.075323923767!2d30.4721233!3d50.4851493!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1648989135101!5m2!1sru!2sua"
+					width="580" height="730" style="border:0;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="footer__copy">
+		<div class="footer__copy-container _container">
+			<p>© SIP PRO 2012 - 2021</p>
+			<a href="#!">Политика конфиденциальности</a>
+		</div>
+	</div>
+
+</footer>
+
+	<script src="js/app.min.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+	</script>
+</body>
+
+</html>
